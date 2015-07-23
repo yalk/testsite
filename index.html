@@ -74,6 +74,12 @@ $(document).ready(function(){
 		}
 	});
 })
+$(document).ready(function(){
+	$("input[type='submit']").click(function(){
+		var text= $("#searchfield").val();
+		ga('send','event','search','click',text);
+	});
+});
 </script>
 
 
