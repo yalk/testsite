@@ -76,12 +76,10 @@ $(document).ready(function(){
 			var sub_category=$(this).text();
 			var category=$(this).parent().parent().children().eq(0).text();
 			ga('send','event','top_nav','click',category+"|"+sub_category);
-			alert(category+"|"+sub_category);
 		}
 		else if($(this).parent().parent().attr("id")=="sddm"){
 			var category=$(this).text();
 			ga('send','event','top_nav','click',category);
-			alert(category);
 		}
 	});
 })
