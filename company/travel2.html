@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
-<title>Geometrixx Clothiers</title>
+<title>Geometrixx|Company|Geo Travel Completion</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="robots" content="noindex, nofollow">
 <script type="text/javascript" src="http://ats.adobe.com/jjsite/include/scripts/menu.js"></script>
@@ -9,7 +9,7 @@
 <script type="text/javascript" src="http://ats.adobe.com/jjsite/include/scripts/simpleCart.js"></script>
 <script language="JavaScript" type="text/javascript">window.onunload=function(){void(0)}</script>
 <script language="JavaScript"><!--if (document.images) {pic1= new Image(200,70); pic1.src="http://ats.adobe.com/jjsite/include/images/jj_logo_green.png";}//--></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
 <style type="text/css">
 @import url(http://ats.adobe.com/jjsite/include/css/jje.css);
 @import url(http://ats.adobe.com/jjsite/include/css/menu.css);
@@ -17,6 +17,7 @@
 </style> 	
 <link rel="shortcut icon" href="http://ats.adobe.com/jjsite/include/images/jj1.ico">
 
+<!--Google Analytics Tracking Code-->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -28,14 +29,14 @@
 
 </script>
 </head>
-
 <body>
-<!--Adobe Analytics marketing reports & analytics 
-<script language="JavaScript" type="text/javascript" src="AppMeasurement.js"></script>
+
+<!--Adobe Analytics marketing reports & analytics -->
+<script language="JavaScript" type="text/javascript" src="../AppMeasurement.js"></script>
 <script language="JavaScript" type="text/javascript"><!--
 /* You may give each page an identifying name, server, and channel on
 the next lines. */
-s.pageName="Ger: Home Page"
+s.pageName=""
 s.server=""
 s.channel=""
 s.pageType=""
@@ -58,60 +59,36 @@ s.eVar2=""
 s.eVar3=""
 s.eVar4=""
 s.eVar5=""
-var s_code=s.t();if(s_code)document.write(s_code)//</script>-->
-
-<script type="text/javascript">
-$(document).ready(function(){
-	$("#menu a").click(function(){
-		if($(this).parent().parent().parent().attr("id")=="sddm"){
-			var sub_category=$(this).text();
-			var category=$(this).parent().parent().children().eq(0).text();
-			ga('send','event','top_nav','click',category+"|"+sub_category);
-			alert(category+"|"+sub_category);
-		}
-		else if($(this).parent().parent().attr("id")=="sddm"){
-			var category=$(this).text();
-			ga('send','event','top_nav','click',category);
-			alert(category);
-		}
-	});
-})
-</script>
-
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
 
 <div id="superwrap">
+
 <div id="wrapper">
 <!--start logo and head-->
 
 <div class="head_logo">
-<a href="index.html" onmouseover="document.jj.src='http://ats.adobe.com/jjsite/include/images/jj_logo_green.png'"
+<a href="../index.html" onmouseover="document.jj.src='http://ats.adobe.com/jjsite/include/images/jj_logo_green.png'"
 onmouseout="document.jj.src='http://ats.adobe.com/jjsite/include/images/jj_logo_black.png'">
 <img src="http://ats.adobe.com/jjsite/include/images/jj_logo_black.png" border="0" name="jj" />
 </a>
 <br />
 </div>
 
+
 <!--start search box-->
 
 <div class="rightheader">
 
-<span class="search_box">
+<div class="search_box">
 
-<form action="search/searchresults.html">
+<form action="../search/searchresults.html">
 <input type="text" id="searchfield" name="q" />
 <input type="submit" Value="Go" class="button">
-
-<!--	<form id="searchform" action="" method="post" name="cf">
-	<input type="text" id="searchfield" name="searchfield" value="" />
-<input type="button" Value="Go"  onClick="putCookie();parent.location='search/redirect.html'">
-
--->
-
 </form> 
-</span>	
+</div>	
 
-<div class="checkout"><a href="checkout/shoppingcart.html"  class="test">shopping cart</a>
-<a href="checkout/shipping1.html">checkout</a>
+<div class="checkout"><a href="../checkout/shoppingcart.html">shopping cart</a>
+<a href="../checkout/shipping1.html">checkout</a>
 </div>
 </div>
 <!--end search box-->
@@ -129,27 +106,29 @@ onmouseout="document.jj.src='http://ats.adobe.com/jjsite/include/images/jj_logo_
 <!--Menu Start-->
 <ul id="sddm">
     
-<li><a href="women/women.html" 
+<li><a href="../women/women.html" 
         onmouseover="mopen('m2')" 
         onmouseout="mclosetime()">WOMEN</a>
         <div id="m2" 
             onmouseover="mcancelclosetime()" 
             onmouseout="mclosetime()">
-	<a href="women/activewear/activewear.html">Activewear</a>
-	<a href="women/fineapparel/fineapparel.html">Fine Apparel</a>
+	<a href="../women/activewear/activewear.html">Activewear</a>
+	<a href="../women/fineapparel/fineapparel.html">Fine Apparel</a>
+
 	<a href="#">Footwear</a>
 	<a href="#">Handbags</a>
 	</div>
     </li>
 <li>
-<a href="men/men.html" 
+<a href="../men/men.html" 
         onmouseover="mopen('m3')" 
         onmouseout="mclosetime()">MEN</a>
         <div id="m3" 
             onmouseover="mcancelclosetime()" 
             onmouseout="mclosetime()">
-	<a href="men/activewear/activewear.html">Activewear</a>
-	<a href="men/fineapparel/fineapparel.html">Fine Apparel</a>
+	<a href="../men/activewear/activewear.html">Activewear</a>
+
+	<a href="../men/fineapparel/fineapparel.html">Fine Apparel</a>
 	<a href="#">Footwear</a>
 	<a href="#">Accessories</a>
 		</div>
@@ -160,6 +139,7 @@ onmouseout="document.jj.src='http://ats.adobe.com/jjsite/include/images/jj_logo_
         <div id="m4" 
             onmouseover="mcancelclosetime()" 
             onmouseout="mclosetime()">
+
 	<a href="#">Anniversary</a>       
 	<a href="#">Broaches</a>
 	<a href="#">Forgive Me</a>
@@ -167,6 +147,7 @@ onmouseout="document.jj.src='http://ats.adobe.com/jjsite/include/images/jj_logo_
 	<a href="#">Rings</a>
 	<a href="#">Watches</a>           
 	</div>
+
     </li>
 <li><a href="#" 
         onmouseover="mopen('m5')" 
@@ -178,6 +159,7 @@ onmouseout="document.jj.src='http://ats.adobe.com/jjsite/include/images/jj_logo_
 	<a href="#">Bed & Bath</a>	
 	<a href="#">Chotskies</a>
 	<a href="#">Floor Clocks</a>
+
 	<a href="#">Furniture</a>
 	<a href="#">Gourmet Food</a>
 	<a href="#">Home Scents</a>
@@ -185,6 +167,7 @@ onmouseout="document.jj.src='http://ats.adobe.com/jjsite/include/images/jj_logo_
 	<a href="#">Lighting</a>
 	<a href="#">Patio & Garden</a>	
 	<a href="#">Wall Decor</a>		
+
 </div>
 </li>   
 <li>
@@ -198,6 +181,7 @@ onmouseout="document.jj.src='http://ats.adobe.com/jjsite/include/images/jj_logo_
 	<a href="#">Apparel</a>	
 	<a href="#">Bed & Bath</a>
 	<a href="#">Shoes</a>
+
 	<a href="#">Toys</a>	
 </div>
 </li>
@@ -211,22 +195,24 @@ onmouseout="document.jj.src='http://ats.adobe.com/jjsite/include/images/jj_logo_
 	<a href="#">Cameras</a>	
 	<a href="#">Computers</a>
 	<a href="#">Gadgets</a>
+
 	<a href="#">Home Appliance</a>	
 	<a href="#">Home Theater</a>
 	<a href="#">TV & Video</a>		
 </div>
 <li>
-	<a href="company/company.html"
+	<a href="../company/company.html"
         onmouseover="mopen('m8')" 
         onmouseout="mclosetime()">COMPANY</a>
         <div id="m8" 
             onmouseover="mcancelclosetime()" 
             onmouseout="mclosetime()">
-	<a href="company/chargecard_application1.html">Geo Charge Card</a>
-	<a href="company/travel1.html">Geo Travel</a>
-	<a href="company/newsletter1.html">Geo Newsletter</a>
-	<a href="mobile/index.html">Mobile Site</a>
-	<a href="company/whitepapers.html">White Papers</a>
+	<a href="../company/chargecard_application1.html">Geo Charge Card</a>
+
+	<a href="../company/travel1.html">Geo Travel</a>
+	<a href="../company/newsletter1.html">Geo Newsletter</a>
+	<a href="../mobile/index.html">Mobile Site</a>
+	<a href="../company/whitepapers.html">White Papers</a>
 </div>
 </li>
 </li>
@@ -235,34 +221,55 @@ onmouseout="document.jj.src='http://ats.adobe.com/jjsite/include/images/jj_logo_
 <!--Menu End-->
 </div>
 </div>
+
 <br clear="all">
 </tr>
 </table>
 <!--end top nav-->
-
-<!----------------------><!--start page content--><!---------------------->
-<div style="margin:6px 0px 0px -3px;">	
-<table border="0">
+<!--start page content-->
+	
+<br> 
+<table border="0" height="250" width="800" style="margin-left:10px;">
 <td>
-<img src="http://ats.adobe.com/jjsite/include/images/jjhomegraphic.jpg" width="812" height="507" usemap="#jjmap" border="0" />
-<map name="jjmap">
-<area shape="rect" coords="0,0,337,507" href="men/fineapparel/fineapparel.html?intcmp=hp-men_fineapparel" />
-<area shape="rect" coords="337,0,571,376" href="women/fineapparel/fineapparel.html?intcmp=hp-dress_sale" />
-<area shape="rect" coords="572,0,812,376" href="women/activewear/activewear.html?intcmp=hp-women_activewear" />
-<area shape="rect" coords="338,377,812,507" href="company/chargecard_application1.html?intcmp=homepage-cc-advert" /></map>
+<table>
+<tr>
+<td>
+<img src="http://ats.adobe.com/jjsite/include/images/black_luggage.jpg" />
 </td>
+</tr>
 </table>
-<br />
-</div>
+</td>
+
+<!---Form Start--->
+<td>
+<table>
+
+<div style="margin-left:50px;font-family:Arial;font-size:30px;color:#F05A28;">
+<p>The Geometrixx Collection thanks you for your booking!</p>
+<p>See you soon!</p>
 </div>
 
+<p class="search_title" style="margin-left:50px;"><a href="../index.html">Click Here to Continue Shopping</a></p>
+
+</div>
+
+</td>
+</tr>
+</table>
+</td>
+
+</table>
+
+<!---Form End--->
+
+</div>
 <!--start footer-->
 <span class="footer">
 Copyright &#169 1996-2013 Adobe Training Services. All Rights Reserved.
-<span style="float: right"> <a href="sitemap.html">Site Map</a>
-</span>
-</span><!--end footer-->
+<span style="float: right"> <a href="../sitemap.html">Site Map</a>
 
-</div>
+</span>
+</span></div>
+<!--End footer-->
 </body>
 </html>

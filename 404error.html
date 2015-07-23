@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
-<title>Geometrixx Clothiers</title>
+<title>Geometrixx|404 Error - Page Not Found</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="robots" content="noindex, nofollow">
 <script type="text/javascript" src="http://ats.adobe.com/jjsite/include/scripts/menu.js"></script>
@@ -9,7 +9,7 @@
 <script type="text/javascript" src="http://ats.adobe.com/jjsite/include/scripts/simpleCart.js"></script>
 <script language="JavaScript" type="text/javascript">window.onunload=function(){void(0)}</script>
 <script language="JavaScript"><!--if (document.images) {pic1= new Image(200,70); pic1.src="http://ats.adobe.com/jjsite/include/images/jj_logo_green.png";}//--></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
 <style type="text/css">
 @import url(http://ats.adobe.com/jjsite/include/css/jje.css);
 @import url(http://ats.adobe.com/jjsite/include/css/menu.css);
@@ -17,6 +17,7 @@
 </style> 	
 <link rel="shortcut icon" href="http://ats.adobe.com/jjsite/include/images/jj1.ico">
 
+<!--Google Analytics Tracking Code-->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -30,15 +31,16 @@
 </head>
 
 <body>
-<!--Adobe Analytics marketing reports & analytics 
+
+<!--Adobe Analytics marketing reports & analytics -->
 <script language="JavaScript" type="text/javascript" src="AppMeasurement.js"></script>
 <script language="JavaScript" type="text/javascript"><!--
 /* You may give each page an identifying name, server, and channel on
 the next lines. */
-s.pageName="Ger: Home Page"
+s.pageName=""
 s.server=""
 s.channel=""
-s.pageType=""
+s.pageType="errorPage"
 s.prop1=""
 s.prop2=""
 s.prop3=""
@@ -58,25 +60,7 @@ s.eVar2=""
 s.eVar3=""
 s.eVar4=""
 s.eVar5=""
-var s_code=s.t();if(s_code)document.write(s_code)//</script>-->
-
-<script type="text/javascript">
-$(document).ready(function(){
-	$("#menu a").click(function(){
-		if($(this).parent().parent().parent().attr("id")=="sddm"){
-			var sub_category=$(this).text();
-			var category=$(this).parent().parent().children().eq(0).text();
-			ga('send','event','top_nav','click',category+"|"+sub_category);
-			alert(category+"|"+sub_category);
-		}
-		else if($(this).parent().parent().attr("id")=="sddm"){
-			var category=$(this).text();
-			ga('send','event','top_nav','click',category);
-			alert(category);
-		}
-	});
-})
-</script>
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
 
 
 <div id="superwrap">
@@ -110,7 +94,7 @@ onmouseout="document.jj.src='http://ats.adobe.com/jjsite/include/images/jj_logo_
 </form> 
 </span>	
 
-<div class="checkout"><a href="checkout/shoppingcart.html"  class="test">shopping cart</a>
+<div class="checkout"><a href="checkout/shoppingcart.html">shopping cart</a>
 <a href="checkout/shipping1.html">checkout</a>
 </div>
 </div>
@@ -240,29 +224,51 @@ onmouseout="document.jj.src='http://ats.adobe.com/jjsite/include/images/jj_logo_
 </table>
 <!--end top nav-->
 
+
+
 <!----------------------><!--start page content--><!---------------------->
-<div style="margin:6px 0px 0px -3px;">	
-<table border="0">
+	
+<br> 
+<table border="0" height="250" width="800" style="margin-left:10px;">
+
 <td>
-<img src="http://ats.adobe.com/jjsite/include/images/jjhomegraphic.jpg" width="812" height="507" usemap="#jjmap" border="0" />
-<map name="jjmap">
-<area shape="rect" coords="0,0,337,507" href="men/fineapparel/fineapparel.html?intcmp=hp-men_fineapparel" />
-<area shape="rect" coords="337,0,571,376" href="women/fineapparel/fineapparel.html?intcmp=hp-dress_sale" />
-<area shape="rect" coords="572,0,812,376" href="women/activewear/activewear.html?intcmp=hp-women_activewear" />
-<area shape="rect" coords="338,377,812,507" href="company/chargecard_application1.html?intcmp=homepage-cc-advert" /></map>
-</td>
-</table>
-<br />
-</div>
+<table>
+
+<div style="margin-left:50px;font-family:Arial;font-size:30px;color:#F05A28;">
+<p>
+I say, that's a 404 Error!
+<br>
+Whoops!  We don't seem to have that page.</p>
 </div>
 
+<p class="search_title" style="margin-left:50px;"><a href="index.html">Click Here to Continue Shopping</a></p>
+
+<p style="margin-left:50px;font-family:Arial;font-size:15px;color:#F05A28;">
+This is the <strong>FAKE 404 ERROR PAGE</strong> that we've created for Adobe Training Services students to code.  This is not the real 404 error page that is served up when a Web page is not found.  When you code your own site, please remember to apply the "Error Page" code only to the page that is served when a URL or link is bad.
+</p>
+
+</div>
+
+</td>
+</tr>
+</table>
+</td>
+
+</table>
+
+<!---Form End--->
+
+
+</div>
 <!--start footer-->
 <span class="footer">
 Copyright &#169 1996-2013 Adobe Training Services. All Rights Reserved.
 <span style="float: right"> <a href="sitemap.html">Site Map</a>
 </span>
-</span><!--end footer-->
-
+</span>
 </div>
+<!--End footer-->
+
+
 </body>
 </html>
