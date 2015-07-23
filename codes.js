@@ -35,7 +35,7 @@ $(document).ready(function(){
 		}
 		else if($(this).parent().parent().attr("id")=="sddm"){
 			var category=$(this).text();
-			
+			ga('send','event','search','click',category);
 		}
 	});
 })
@@ -45,3 +45,4 @@ $(document).ready(function(){
 		ga('send','event','search','click',text);
 	});
 });
+</script>
