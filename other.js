@@ -55,6 +55,37 @@ $("#menu a").click(function(){
 });
 
 
+$(document).ready(function(){
+	if($("form input").eq(1).attr("type")=="submit"){
+		$(this).click(function(){
+			var text= $("#searchfield").val();
+			ga('send','event','search','click',text);
+		});
+	}
+});
+
+$(document).ready(function(){
+	$("input[type='submit']").click(function(){
+		var text= $("#searchfield").val();
+		ga('send','event','search','click',text);
+	});
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
